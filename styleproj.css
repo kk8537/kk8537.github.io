@@ -7,7 +7,7 @@
 .banner{
 	width: 100%;
 	height: 100vh;
-	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(sea.jpeg);
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(training.jpeg);
 	background-position: center;
 	background-size: cover;
 	position: relative;
@@ -54,9 +54,9 @@
 }
 
 .content{
-	width: 60%;
+	width: 100%;
 	position: absolute;
-	top: 40%;
+	top: 50%;
 	transform: translateY(-50%);
 	text-align: center;
 	color: #fff;
@@ -64,13 +64,12 @@
 
 .content h1{
 	font-size:70px;
-	margin-top: 20 px;
+	margin-top: 80 px;
 } 
 
 .content p{
 	font-weight:100;
 	margin: 20 px auto;
-	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	line-height: 25px;
 }
 
@@ -109,28 +108,10 @@ button:hover{
 	border: none;
 }
 
-.adress{
-	width: 60%;
-	position: absolute;
-	top: 70%;
-	transform: translateY(-50%);
-	font-family: "Comic Sans MS", "Comic Sans", cursive;
-	text-align: center;
+button a{
+	text-decoration: none;
 	color: #fff;
-}
-.adress p{
-	font-weight:100;
-	margin: 20 px auto;
-	line-height: 25px;
-	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	text-transform: uppercase;
 }
 
-.image{
-	width: 90%;
-	position: absolute;
-	top: 55%;
-	transform: translateY(-50%);
-	text-align: right;
-	color: #fff;
-}
 
